@@ -3,25 +3,6 @@ This project focuses on classifying human emotions from facial images using deep
 
 Dataset
 Classes: Angry, Happy, Sad
-Structure:
-
-EmotionsDataset_Splitted/
-│── data/
-│   ├── train/
-│   │   ├── angry/
-│   │   ├── happy/
-│   │   ├── sad/
-│   ├── val/
-│   │   ├── angry/
-│   │   ├── happy/
-│   │   ├── sad/
-│   ├── test/
-│   │   ├── angry/
-│   │   ├── happy/
-│   │   ├── sad/
-
-
-
 
 Setup Instructions
 
@@ -39,19 +20,16 @@ Run the API
 uvicorn app:app --host 0.0.0.0 --port 8000
 
 Model Architecture
-
 CNN Models: ResNet, MobileNet, EfficientNet
 Framework: TensorFlow/Keras
 Explainability: Grad-CAM
 Deployment: FastAPI, ONNX, TensorFlow Lite
 
 Results & Performance
-
 Achieved XX% accuracy on the test set
 Grad-CAM applied for model interpretability
 
 Future Improvements
-
 Expand emotion classes
 Improve dataset quality
 Optimize model for edge devices
