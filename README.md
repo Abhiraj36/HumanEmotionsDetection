@@ -4,23 +4,20 @@ This project focuses on classifying human emotions from facial images using deep
 Dataset
 Classes: Angry, Happy, Sad
 Structure:
-kotlin
-Copy
-Edit
-├── EmotionsDataset_Splitted
-│   ├── data
-│   │   ├── train
-│   │   │   ├── angry
-│   │   │   ├── happy
-│   │   │   ├── sad
-│   │   ├── test
-│   │   │   ├── angry
-│   │   │   ├── happy
-│   │   │   ├── sad
-│   │   ├── val
-│   │   │   ├── angry
-│   │   │   ├── happy
-│   │   │   ├── sad
+EmotionsDataset_Splitted
+│── data
+│   ├── train
+│   │   ├── angry
+│   │   ├── happy
+│   │   ├── sad
+│   ├── val
+│   │   ├── angry
+│   │   ├── happy
+│   │   ├── sad
+│   ├── test
+│   │   ├── angry
+│   │   ├── happy
+│   │   ├── sad
 
 Setup Instructions
 
