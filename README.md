@@ -4,20 +4,24 @@ This project focuses on classifying human emotions from facial images using deep
 Dataset
 Classes: Angry, Happy, Sad
 Structure:
-EmotionsDataset_Splitted
-│── data
-│   ├── train
-│   │   ├── angry
-│   │   ├── happy
-│   │   ├── sad
-│   ├── val
-│   │   ├── angry
-│   │   ├── happy
-│   │   ├── sad
-│   ├── test
-│   │   ├── angry
-│   │   ├── happy
-│   │   ├── sad
+
+EmotionsDataset_Splitted/
+│── data/
+│   ├── train/
+│   │   ├── angry/
+│   │   ├── happy/
+│   │   ├── sad/
+│   ├── val/
+│   │   ├── angry/
+│   │   ├── happy/
+│   │   ├── sad/
+│   ├── test/
+│   │   ├── angry/
+│   │   ├── happy/
+│   │   ├── sad/
+
+
+
 
 Setup Instructions
 
